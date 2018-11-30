@@ -1,0 +1,12 @@
+<view class='container'>
+<view class='home-top'>
+<text>广州棠下沃尔玛</text>
+<text>{{tihuoNum}}</text>
+</view>
+<!-- 中间按钮以及选择框 -->
+ <view class='home-container'>
+ <button   bindtap='pic' class='btn  iconfont  icon-weibiaoti553' size='100'>拍照上传</button>
+ </view>
+<text>店号：{{tihuoway}}</text>
+<view>专柜：{{time}}</view>
+</view>

@@ -1,0 +1,24 @@
+<view class='box'>
+<scroll-view scroll-y='true' style="height:{{height}}px" bindscrolltolower='lower'   >
+  <view
+  wx:for="{{res}}"
+   data-id="{{index}}" 
+   wx:key="{{index}}"
+   class='item'
+   wx:for="{{imgUrl}}"
+
+   >
+  <!-- {{item}} -->
+  <view class='item-image'> <image src='{{item}}'></image></view>
+ 
+
+
+
+
+
+
+  </view>
+</scroll-view>
+<scroll-view scroll-y='true' lower-threshold="200"  style="height:100%" bindscrolltolower='lower'>
+</scroll-view>
+</view> 

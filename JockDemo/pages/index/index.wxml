@@ -1,0 +1,38 @@
+<!-- 轮播 -->
+  <!-- <view class="selection home-banner">
+    <swiper indicator-dots="true"
+      autoplay="true" interval="3000" duration="1000">
+      <block class="selection-banner" wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+	
+  </view> -->
+<!-- 中心内容 -->
+<view class='container'>
+
+<view class='home-top'>
+<text>深圳市爵邦体育用品有限公司</text>
+<text>陈列图上传</text>
+</view>
+<!-- 中间按钮以及选择框 -->
+ <view class='home-container'>
+
+  <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"class='btn' >
+  登录</button>
+
+
+ </view>
+
+</view>
+
+<!-- 下拉 -->
+<!-- <view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      当前选择的百货：{{array[index]}}
+    </view>
+  </picker>
+</view> -->
